@@ -4,13 +4,9 @@ Electricity market modeling and forecasting examples in Julia.
 
 This repository was developed as part of a university assignment focused on modeling different electricity market mechanisms using Julia and JuMP. The models simulate market clearing, day-ahead and balancing markets, and compare different pricing and reserve setups.
 
-The scripts are structured by step and can be run independently. They do not require external data files (inputs are defined within the scripts and can be found in the ), making them easy to test and adapt.
-
-This repository contains all steps related to **Assignment 1**, which focuses on the design and simulation of electricity markets, covering core concepts such as market clearing, day-ahead planning, balancing markets, and reserve coordination.
-
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ├── Step_1_Market_Clearing_No_Network.jl
 ├── Step_2_Day_Ahead_Market.jl
@@ -28,11 +24,11 @@ This repository contains all steps related to **Assignment 1**, which focuses on
 
 ---
 
-## 📌 Assignment 1: Electricity Market Modeling
+## Assignment 1: Electricity Market Modeling
 
 This assignment explores various aspects of electricity markets through progressively advanced modeling tasks. Each step builds on the previous one.
 
-### 📄 Step Overview
+### Step Overview
 
 | Step | File                                 | Description                                                  |
 |------|--------------------------------------|--------------------------------------------------------------|
@@ -46,13 +42,13 @@ This assignment explores various aspects of electricity markets through progress
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 All input data and assignment description are located in [`data_sources/`](./data_sources):
 
-- 📄 [`Assignment_Input_Data.pdf`](./data_sources/Assignment_Input_Data.pdf): Raw input values and scenarios  
-- 📝 [`Assignment_Description.pdf`](./data_sources/Assignment_Description.pdf): Task breakdown and scope  
-- 📚 [`IEEE_RTS_24Bus_Paper.pdf`](./data_sources/IEEE_RTS_24Bus_Paper.pdf): Background paper used for system modeling
+- [`Assignment_Input_Data.pdf`](./data_sources/Assignment_Input_Data.pdf): Raw input values and scenarios  
+- [`Assignment_Description.pdf`](./data_sources/Assignment_Description.pdf): Task breakdown and scope  
+- [`IEEE_RTS_24Bus_Paper.pdf`](./data_sources/IEEE_RTS_24Bus_Paper.pdf): Background paper used for system modeling
 
 ---
 
