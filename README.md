@@ -4,8 +4,6 @@ Electricity market modeling and forecasting examples in Julia.
 
 This repository was developed as part of a university assignment focused on modeling different electricity market mechanisms using Julia and JuMP. The models simulate market clearing, day-ahead and balancing markets, and compare different pricing and reserve setups.
 
----
-
 ## Repository Structure
 
 ├── Step_1_Market_Clearing_No_Network.jl
@@ -24,7 +22,7 @@ This repository was developed as part of a university assignment focused on mode
 
 ---
 
-## Assignment 1: Electricity Market Modeling
+## Assignment: Electricity Market Modeling
 
 This assignment explores various aspects of electricity markets through progressively advanced modeling tasks. Each step builds on the previous one.
 
@@ -32,7 +30,7 @@ This assignment explores various aspects of electricity markets through progress
 
 | Step | File                                 | Description                                                  |
 |------|--------------------------------------|--------------------------------------------------------------|
-| 1    | `Step_1_Market_Clearing_No_Network.jl` | Basic market clearing without network constraints             |
+| 1    | `Step_1_Market_Clearing_No_Network.jl` | Basic market clearing without network constraints          |
 | 2a   | `Step_2_Day_Ahead_Market.jl`         | Day-ahead scheduling in energy-only market                   |
 | 2b   | `Step_2_Market_Clearing_Nodal.jl`    | Market clearing with nodal pricing (locational marginal)     |
 | 2c   | `Step_2_Market_Clearing_Zonal.jl`    | Market clearing with zonal pricing                           |
