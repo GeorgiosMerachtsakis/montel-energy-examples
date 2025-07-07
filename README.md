@@ -2,6 +2,10 @@
 
 Electricity market modeling and forecasting examples in Julia.
 
+This repository was developed as part of a university assignment focused on modeling different electricity market mechanisms using Julia and JuMP. The models simulate market clearing, day-ahead and balancing markets, and compare different pricing and reserve setups.
+
+The scripts are structured by step and can be run independently. They do not require external data files (inputs are defined within the scripts and can be found in the ), making them easy to test and adapt.
+
 This repository contains all steps related to **Assignment 1**, which focuses on the design and simulation of electricity markets, covering core concepts such as market clearing, day-ahead planning, balancing markets, and reserve coordination.
 
 ---
