@@ -1,4 +1,4 @@
-# montel-energy-examples
+# montel-market-clearing-models
 
 Electricity market modeling and forecasting examples in Julia.
 
